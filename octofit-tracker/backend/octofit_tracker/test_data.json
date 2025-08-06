@@ -1,0 +1,22 @@
+{
+  "users": [
+    {"email": "john.doe@example.com", "name": "John Doe", "age": 25},
+    {"email": "jane.smith@example.com", "name": "Jane Smith", "age": 30}
+  ],
+  "teams": [
+    {"name": "Team Alpha", "members": ["John Doe", "Jane Smith"]},
+    {"name": "Team Beta", "members": ["Alice", "Bob"]}
+  ],
+  "activities": [
+    {"activity_id": "A1", "type": "Running", "duration": 30},
+    {"activity_id": "A2", "type": "Cycling", "duration": 45}
+  ],
+  "leaderboard": [
+    {"leaderboard_id": "L1", "scores": {"John Doe": 100, "Jane Smith": 90}},
+    {"leaderboard_id": "L2", "scores": {"Alice": 80, "Bob": 70}}
+  ],
+  "workouts": [
+    {"workout_id": "W1", "exercises": ["Push-ups", "Squats"]},
+    {"workout_id": "W2", "exercises": ["Pull-ups", "Lunges"]}
+  ]
+}
