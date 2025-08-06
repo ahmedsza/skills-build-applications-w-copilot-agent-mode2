@@ -87,7 +87,7 @@ WSGI_APPLICATION = "octofit_tracker.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "djongo",
-        "NAME": "mergington_high_school",
+        "NAME": "octofit_db",
     }
 }
 
