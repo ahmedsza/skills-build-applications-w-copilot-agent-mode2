@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-lehm&s8lz9_#b#(duh3w)e!t^gzlq=#c27jhox8vj$4n5+t#f0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "0.0.0.0", "*.codespaces.dev"]
 
 
 # Application definition
@@ -77,7 +77,7 @@ TEMPLATES = [
         },
     },
 ]
-
+# -8000.app.github.dev
 WSGI_APPLICATION = "octofit_tracker.wsgi.application"
 
 
